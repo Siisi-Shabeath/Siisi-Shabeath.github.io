@@ -129,6 +129,11 @@ img {
   section {
     margin-top: 6rem;
   }
+  
+  html {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
@@ -139,5 +144,10 @@ img {
 
   section > h2 {
     margin-bottom: 2rem;
+  }
+  
+   html {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 }
